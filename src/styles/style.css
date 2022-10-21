@@ -95,19 +95,13 @@ p {
   display: block;
 }
 
-.container {
-
-}
-
-.yogurt_info{
-
-}
-
 .grid_table img{
   background-color: mediumseagreen;
 }
 
-
+.about-paragraphs{
+  margin: 0 auto;
+}
 
 @Media (max-width: 576px){
    .grid_table{

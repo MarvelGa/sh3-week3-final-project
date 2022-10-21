@@ -5,8 +5,10 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  background-color: var(--primary-color);
 }
 
 h1,
@@ -91,4 +93,29 @@ p {
 
 .launch {
   display: block;
+}
+
+.container {
+
+}
+
+.yogurt_info{
+
+}
+
+.grid_table img{
+  background-color: mediumseagreen;
+}
+
+
+
+@Media (max-width: 576px){
+   .grid_table{
+     margin: 10% auto;
+   }
+  .grid_table h2, p{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 16px;
+  }
 }

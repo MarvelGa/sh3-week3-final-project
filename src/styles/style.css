@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --acсent-color: mediumseagreen;
 }
 
 body {
@@ -96,7 +97,7 @@ p {
 }
 
 .grid_table img{
-  background-color: mediumseagreen;
+  background-color: var(--acсent-color);
 }
 
 .about-paragraphs{
@@ -113,3 +114,13 @@ p {
     font-size: 16px;
   }
 }
+
+.custom_color{
+  background-color: var(--acсent-color) !important;
+}
+
+.navbar-brand, .nav-item a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
